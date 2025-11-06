@@ -1,0 +1,254 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #1C1C1C;
+    position: sticky;
+    top: 0;
+    
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 100;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #E09C48;
+    line-height: 2px;
+    text-decoration: none;
+
+}
+
+.nav-links{
+    display: flex;
+    gap: 50px;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.nav-links a:hover {
+    color: #E09C48;
+}
+
+.backgroundtop {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: background-image 0.8s ease-in-out;
+}
+
+.herotop {
+    position: relative;
+    height: 100%;
+}
+
+.texttop {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    font-family: "Sofia", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    font-size: 2rem;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.arrow:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.arrow.left {
+    left: 30px;
+}
+
+.arrow.right {
+    right: 30px;
+}
+
+.backgroundlow {
+    display: flex;
+    background-image: url('/photo/coffee-4388065_12800.jpg');
+    background-size: cover;
+    height: 80vh;
+
+    
+}
+
+.about {
+    background-color: #ffff;
+    padding: 80px 10%;
+}
+
+.hero {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 1;
+}
+
+.text h1 {
+    font-size: 100px;
+}
+
+.text h2 {
+    font-size: 60px;
+}
+
+.text p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.hero .text {
+    flex: 1;
+    padding: 20px;
+    color: #1C1C1C;
+    
+}
+
+.hero .image {
+    flex: 1;
+    text-align: left;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0, 1); 
+}
+
+
+ /* MENU */
+
+
+
+ .menu-section {
+    text-align: center;
+    padding: 50px 0;
+ }
+
+ .menu-section h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #4b2e05;
+ }
+
+ .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-items: center;
+    padding: 0 40px; 
+ }
+
+.cardmenu {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: white;
+}
+
+.cardmenu:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.cardmenu img {
+  width: 100%;
+  height: 159px;
+  object-fit: cover;
+}
+
+.containermenu {
+  padding: 10px 12px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: #4b2e05;    
+}
+
+/* Location */
+
+ .backgroundlocation {
+    display: flex;
+    background-image: url(/photo/coffee-424763_1280.jpg);
+    background-size: cover;
+    height: 65vh;
+ }
+
+ .containerlocation {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: "Sofia", sans-serif;
+    padding: 60px;
+    color: white;
+    font-size: 90px;
+ }
+
+.location-section {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+}
+
+.location-section .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #3e2723;
+}
+
+.location-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.map {
+    flex: 1 1 500px;
+}
+
+.location-info {
+    flex: 1 1 300px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px 30px;
+}
+
+.location-info h3 {
+    margin-bottom: 15px;
+    color: #4e342e;
+}
