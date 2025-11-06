@@ -87,7 +87,7 @@
 
 .backgroundlow {
     display: flex;
-    background-image: url('photo/coffee-4388065_12800.jpg');
+    background-image: url('../photo/coffee-4388065_12800.jpg');
     background-size: cover;
     height: 80vh;
 
@@ -195,7 +195,7 @@
 
  .backgroundlocation {
     display: flex;
-    background-image: url(photo/coffee-424763_1280.jpg);
+    background-image: url(../photo/coffee-424763_1280.jpg);
     background-size: cover;
     height: 65vh;
  }
